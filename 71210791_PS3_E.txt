@@ -1,0 +1,15 @@
+1 1 2 3 5 8 13 21....
+n adalah batasan bilangan fibonacci
+x adalah suku pertama dan kedua
+F(x) adalah fibonacci(x)
+x,n,F(x) : interger
+masukan n
+
+if x=0 atau x=1
+ tampilkan F(x)=x
+else
+
+while x>1 dan x≤n 
+ F(x)=F(x-1)+F(x-2)
+tampilkan F(x)
+ x=x+1
